@@ -1,0 +1,1523 @@
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+TypeError: C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.data-dist\mods/inksrandbats/conditions, if it exists, must export an object whose 'Conditions' property is an Object
+    at ModdedDex.loadDataFile (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js:1353:11)
+    at ModdedDex.loadData (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js:1427:28)
+    at ModdedDex.includeData (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js:1390:8)
+    at ModdedDex.forFormat (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js:194:33)
+    at new TeamValidator (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\team-validator.js:197:18)
+    at Function.get (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\team-validator.js:2098:10)
+    at QueryProcessManager._query (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.server-dist\team-validator-async.js:51:43)
+    at process.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:538:30)
+    at process.emit (events.js:315:20)
+    at process.EventEmitter.emit (domain.js:483:12)
+
+Additional information:
+  formatid = gen8inksrandbats
+  team = null
+
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+TypeError: C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.data-dist\mods/inksrandbats/conditions, if it exists, must export an object whose 'Conditions' property is an Object
+    at ModdedDex.loadDataFile (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js:1353:11)
+    at ModdedDex.loadData (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js:1427:28)
+    at ModdedDex.includeData (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js:1390:8)
+    at ModdedDex.forFormat (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js:194:33)
+    at new TeamValidator (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\team-validator.js:197:18)
+    at Function.get (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\team-validator.js:2098:10)
+    at QueryProcessManager._query (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.server-dist\team-validator-async.js:51:43)
+    at process.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:538:30)
+    at process.emit (events.js:315:20)
+    at process.EventEmitter.emit (domain.js:483:12)
+
+Additional information:
+  formatid = gen8inksrandbats
+  team = null
+
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+TypeError: C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.data-dist\mods/inksrandbats/conditions, if it exists, must export an object whose 'Conditions' property is an Object
+    at ModdedDex.loadDataFile (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js:1353:11)
+    at ModdedDex.loadData (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js:1427:28)
+    at ModdedDex.includeData (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js:1390:8)
+    at ModdedDex.forFormat (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js:194:33)
+    at new TeamValidator (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\team-validator.js:197:18)
+    at Function.get (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\team-validator.js:2098:10)
+    at QueryProcessManager._query (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.server-dist\team-validator-async.js:51:43)
+    at process.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:538:30)
+    at process.emit (events.js:315:20)
+    at process.EventEmitter.emit (domain.js:483:12)
+
+Additional information:
+  formatid = gen8inksrandbats
+  team = null
+
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error: Cannot find module 'C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.data-dist\mods/inksrandbats/random-teams'
+Require stack:
+- C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js
+- C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle.js
+- C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle-stream.js
+- C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.server-dist\room-battle.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at ModdedDex.getTeamGenerator (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js:1031:25)
+    at Battle.getTeam (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle.js:2979:34)
+    at Battle.setPlayer (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle.js:2994:22)
+    at RoomBattleStream._writeLine (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle-stream.js:110:16)
+    at RoomBattleStream._writeLine (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.server-dist\room-battle.js:1255:18)
+    at RoomBattleStream._writeLines (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle-stream.js:77:10)
+
+Additional information:
+  chunk = >player p1 {"name":"ink2","avatar":"aaron","team":"","rating":0}
+  inputLog = 
+>start {"formatid":"gen8inksrandbats","seed":[9027,54756,53708,6537]}
+  log = 
+|t:|1606466297
+
+
+Error: Cannot find module 'C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.data-dist\mods/inksrandbats/random-teams'
+Require stack:
+- C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js
+- C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle.js
+- C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle-stream.js
+- C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.server-dist\room-battle.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at ModdedDex.getTeamGenerator (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js:1031:25)
+    at Battle.getTeam (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle.js:2979:34)
+    at Battle.setPlayer (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle.js:2994:22)
+    at RoomBattleStream._writeLine (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle-stream.js:110:16)
+    at RoomBattleStream._writeLine (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.server-dist\room-battle.js:1255:18)
+    at RoomBattleStream._writeLines (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle-stream.js:77:10)
+
+Additional information:
+  chunk = >player p2 {"name":"inkbug1","avatar":"burgh","team":"","rating":0}
+  inputLog = 
+>start {"formatid":"gen8inksrandbats","seed":[9027,54756,53708,6537]}
+  log = 
+|t:|1606466297
+
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error: setting weather without a source
+    at Field.setWeather (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\field.js:79:23)
+    at Battle.onBegin (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.data-dist\mods\inksrandbats\rulesets.js:9:15)
+    at Battle.start (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle.js:1636:46)
+    at Battle.setPlayer (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle.js:3020:75)
+    at RoomBattleStream._writeLine (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle-stream.js:110:16)
+    at RoomBattleStream._writeLine (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.server-dist\room-battle.js:1255:18)
+    at RoomBattleStream._writeLines (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle-stream.js:77:10)
+    at RoomBattleStream._write (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.server-dist\room-battle.js:1172:9)
+    at RoomBattleStream.write (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\streams.js:836:15)
+    at process.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:618:17)
+
+Additional information:
+  chunk = >player p2 {"name":"ink2","avatar":"aaron","team":"","rating":0}
+  inputLog = 
+>start {"formatid":"gen8inksrandbats","seed":[520,42253,47798,61344]}
+>player p1 {"name":"inkbug1","avatar":"burgh","team":"","rating":0,"seed":[19775,37816,29267,18766]}
+>player p2 {"name":"ink2","avatar":"aaron","team":"","rating":0,"seed":[53965,18317,42804,46452]}
+  log = 
+|t:|1606466521
+|player|p1|inkbug1|burgh|
+|player|p2|ink2|aaron|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ink's Randbats
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Permasnow: The weather will always be Hail
+
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error: setting weather without a source
+    at Field.setWeather (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\field.js:79:23)
+    at Battle.onBegin (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.data-dist\mods\inksrandbats\rulesets.js:9:15)
+    at Battle.start (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle.js:1636:46)
+    at Battle.setPlayer (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle.js:3020:75)
+    at RoomBattleStream._writeLine (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle-stream.js:110:16)
+    at RoomBattleStream._writeLine (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.server-dist\room-battle.js:1255:18)
+    at RoomBattleStream._writeLines (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle-stream.js:77:10)
+    at RoomBattleStream._write (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.server-dist\room-battle.js:1172:9)
+    at RoomBattleStream.write (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\streams.js:836:15)
+    at process.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:618:17)
+
+Additional information:
+  chunk = >player p2 {"name":"inkbug1","avatar":"burgh","team":"","rating":0}
+  inputLog = 
+>start {"formatid":"gen8inksrandbats","seed":[9981,6965,21345,63487]}
+>player p1 {"name":"ink2","avatar":"aaron","team":"","rating":0,"seed":[58908,54119,46390,43647]}
+>player p2 {"name":"inkbug1","avatar":"burgh","team":"","rating":0,"seed":[45102,26896,21950,42923]}
+  log = 
+|t:|1606467175
+|player|p1|ink2|aaron|
+|player|p2|inkbug1|burgh|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ink's Randbats
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Permasnow: The weather will always be Hail
+
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error: Process sockets.js 12192 crashed and had to be restarted
+    at RawProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:437:4)
+    at Worker.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at Worker.emit (events.js:315:20)
+    at Worker.EventEmitter.emit (domain.js:483:12)
+    at ChildProcess.<anonymous> (internal/cluster/master.js:212:12)
+    at Object.onceWrapper (events.js:421:28)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error: setting weather without a source
+    at Field.setWeather (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\field.js:79:23)
+    at Battle.onBegin (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.data-dist\mods\inksrandbats\rulesets.js:9:15)
+    at Battle.start (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle.js:1636:46)
+    at Battle.setPlayer (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle.js:3020:75)
+    at RoomBattleStream._writeLine (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle-stream.js:110:16)
+    at RoomBattleStream._writeLine (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.server-dist\room-battle.js:1255:18)
+    at RoomBattleStream._writeLines (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle-stream.js:77:10)
+    at RoomBattleStream._write (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.server-dist\room-battle.js:1172:9)
+    at RoomBattleStream.write (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\streams.js:836:15)
+    at process.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:618:17)
+
+Additional information:
+  chunk = >player p2 {"name":"inkbug1","avatar":"burgh","team":"","rating":0}
+  inputLog = 
+>start {"formatid":"gen8inksrandbats","seed":[35206,29577,18923,56017]}
+>player p1 {"name":"ink2","avatar":"aaron","team":"","rating":0,"seed":[64707,44737,24241,57874]}
+>player p2 {"name":"inkbug1","avatar":"burgh","team":"","rating":0,"seed":[31886,51141,45699,9837]}
+  log = 
+|t:|1606467342
+|player|p1|ink2|aaron|
+|player|p2|inkbug1|burgh|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] Ink's Randbats
+|rule|Dynamax Clause: You cannot dynamax
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Permasnow: The weather will always be Hail
+
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error: Process sockets.js 17856 crashed and had to be restarted
+    at RawProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:437:4)
+    at Worker.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at Worker.emit (events.js:315:20)
+    at Worker.EventEmitter.emit (domain.js:483:12)
+    at ChildProcess.<anonymous> (internal/cluster/master.js:212:12)
+    at Object.onceWrapper (events.js:421:28)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+TypeError: Cannot read property 'then' of null
+    at RawProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:25)
+    at Worker.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at Worker.emit (events.js:315:20)
+    at Worker.EventEmitter.emit (domain.js:483:12)
+    at ChildProcess.<anonymous> (internal/cluster/master.js:212:12)
+    at Object.onceWrapper (events.js:421:28)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+TypeError: Cannot read property 'endsWith' of undefined
+    at RandomTeams.randomSet (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.data-dist\mods\inksrandbats\random-teams.js:620:20)
+    at RandomTeams.randomTeam (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.data-dist\mods\inksrandbats\random-teams.js:1589:22)
+    at RandomTeams.getTeam (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.data-dist\mods\inksrandbats\random-teams.js:44:45)
+    at Battle.getTeam (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle.js:2984:29)
+    at Battle.setPlayer (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle.js:2994:22)
+    at RoomBattleStream._writeLine (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle-stream.js:110:16)
+    at RoomBattleStream._writeLine (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.server-dist\room-battle.js:1255:18)
+    at RoomBattleStream._writeLines (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\battle-stream.js:77:10)
+    at RoomBattleStream._write (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.server-dist\room-battle.js:1172:9)
+    at RoomBattleStream.write (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\streams.js:836:15)
+
+Additional information:
+  chunk = >player p1 {"name":"ink2","avatar":"aaron","team":"","rating":0}
+  inputLog = 
+>start {"formatid":"gen8inksrandbats","seed":[39203,59422,42387,32290]}
+  log = 
+|t:|1606546020
+
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.data-dist\mods\inksrandbats\abilities.js:55
+			const pokemon = this.effectData.target;
+			      ^
+
+SyntaxError: Identifier 'pokemon' has already been declared
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at ModdedDex.loadDataFile (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js:1348:23)
+    at ModdedDex.loadData (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js:1427:28)
+    at ModdedDex.includeData (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.sim-dist\dex.js:1390:8)
+
+Additional information:
+  formatid = gen8inksrandbats
+  team = null
+
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at QueryProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:178:16)
+    at QueryProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:164:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (internal/child_process.js:832:26)
+    at StreamProcessWrapper.destroy (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:288:16)
+    at StreamProcessWrapper.release (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:274:14)
+    at StreamProcessManager.releaseCrashed (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:421:16)
+    at ChildProcess.<anonymous> (C:\Users\Tegan\Downloads\DH-master\DH-M\DH\.lib-dist\process-manager.js:468:48)
+    at ChildProcess.emit (events.js:315:20)
+    at ChildProcess.EventEmitter.emit (domain.js:483:12)
+    at finish (internal/child_process.js:861:14)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)

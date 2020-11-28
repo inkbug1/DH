@@ -2056,6 +2056,13 @@ export const Formats: FormatList = [
 	},
 	
 	{
+		name: "[Gen 8] Ink's Randbats",
+		mod: 'inksrandbats',
+		team: 'random', 
+		ruleset: ['Dynamax Clause', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Permasnow'],
+	},
+	
+	{
 		name: "[Gen 7] Random Battle",
 		desc: `Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable.`,
 		threads: [
