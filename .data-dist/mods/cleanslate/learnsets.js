@@ -1,4 +1,4 @@
-"use strict";Object.defineProperty(exports, "__esModule", {value: true}); const BattleLearnsets = {
+"use strict";Object.defineProperty(exports, "__esModule", {value: true}); const Learnsets = {
 	cofagrigus: {learnset: {
         afteryou: ["7T", "6T", "5T"],
         allyswitch: ["7T"],
@@ -3135,4 +3135,4 @@ kommoo: {learnset: {
 		xscissor: ["7M"],
 		uturn: ["7L1"],
 	}},
-}; exports.BattleLearnsets = BattleLearnsets;
+}; exports.Learnsets = Learnsets;

@@ -16,7 +16,7 @@
 		onDamage(damage, target, source, effect) {
 			if (
 				effect && effect.effectType === 'Move' && effect.category === 'Physical' &&
-				 target.species.id === 'eiscuenoice' || target.species.id === 'castform'  && !target.transformed
+				 target.species.id === 'eiscue' || target.species.id === 'castformsnowy'  && !target.transformed
 			) {
 				this.add('-activate', target, 'ability: Ice Face');
 				this.effectData.busted = true;

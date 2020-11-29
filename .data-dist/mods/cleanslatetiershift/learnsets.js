@@ -1,4 +1,4 @@
-"use strict";Object.defineProperty(exports, "__esModule", {value: true}); const BattleLearnsets = {
+"use strict";Object.defineProperty(exports, "__esModule", {value: true}); const Learnsets = {
 	weezinggalar: {learnset: {
 		aromatherapy: ["8L24"],
 		aromaticmist: ["8L1"],
@@ -7294,4 +7294,4 @@ kommoo: {learnset: {
 		stealthrock: ["7L1"],
 		powergem: ["7L1"],
 	}},
-}; exports.BattleLearnsets = BattleLearnsets;
+}; exports.Learnsets = Learnsets;

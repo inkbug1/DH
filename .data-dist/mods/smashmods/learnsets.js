@@ -1,4 +1,4 @@
-"use strict";Object.defineProperty(exports, "__esModule", {value: true}); const BattleLearnsets = {
+"use strict";Object.defineProperty(exports, "__esModule", {value: true}); const Learnsets = {
 	poliwreck: {learnset: {
 		machpunch: ["7L1"],
 		drainpunch: ["7L1"],
@@ -2124,4 +2124,4 @@
 		toxicspikes: ["7L1"],
 		waterfall: ["7L1"],
 	}},
- }; exports.BattleLearnsets = BattleLearnsets;
+ }; exports.Learnsets = Learnsets;

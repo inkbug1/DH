@@ -1,4 +1,4 @@
-"use strict";Object.defineProperty(exports, "__esModule", {value: true}); const BattleLearnsets = {
+"use strict";Object.defineProperty(exports, "__esModule", {value: true}); const Learnsets = {
 	scyther: {learnset: {
 		aerialace: ["7M", "6M", "5M", "4M", "3M"],
 		agility: ["7L17", "7V", "7V", "6L17", "5L17", "5S2", "4L17", "3L21"],
@@ -151,4 +151,4 @@
 		xscissor: ["7M", "7L41", "6M", "6L41", "6S4", "5M", "5L41", "4M", "4L41", "4S1"],
 	}},
  
- }; exports.BattleLearnsets = BattleLearnsets;
+ }; exports.Learnsets = Learnsets;

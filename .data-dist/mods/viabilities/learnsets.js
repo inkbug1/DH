@@ -1,4 +1,4 @@
-"use strict";Object.defineProperty(exports, "__esModule", {value: true}); const BattleLearnsets = {
+"use strict";Object.defineProperty(exports, "__esModule", {value: true}); const Learnsets = {
 	accelgor: {learnset: {
 		absorb: ["8L1", "7L1"],
 		acid: ["8L4", "7L4", "6L4", "5D", "5L4"],
@@ -4186,4 +4186,4 @@
 	}},
 	weezinggalar: {learnset: {
 	}},
-}; exports.BattleLearnsets = BattleLearnsets;
+}; exports.Learnsets = Learnsets;
