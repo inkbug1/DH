@@ -1276,6 +1276,8 @@ var _prng = require('../../../.sim-dist/prng');
 				if (hasAbility['Telepathy'] && (ability === 'Pressure' || hasAbility['Analytic'])) ability = 'Telepathy';
 				if (hasAbility['Triage']) ability = 'Triage';
 			}
+		} else if (species.name === 'Castform' || species.name === 'Castform-Snowy') { //Just for testing. Remove later.
+			ability = 'Ice Face'; 
 		} else {
 			ability = ability0.name;
 		}
