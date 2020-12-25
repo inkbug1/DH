@@ -878,6 +878,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
+	/*
 	tauros: {
 		randomBattleMoves: ["bodyslam", "earthquake", "zenheadbutt", "rockslide", "doubleedge"],
 		randomDoubleBattleMoves: ["return", "stompingtantrum", "zenheadbutt", "rockslide", "stoneedge", "protect", "doubleedge"],
@@ -1175,7 +1176,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	feraligatrmega: {
-		randomBattleMoves: ["liquidation", "crunch", "icefang", "dragondance", "suckerpunch", "thunderfang", "firefang", "earthquake"],
+		randomBattleMoves: ["liquidation", "crunch", "icefang", "dragondance", "suckerpunch", "thunderfang", "firefang", "bite"],
 		randomDoubleBattleMoves: ["aquajet", "liquidation", "crunch", "icepunch", "dragondance", "protect"],
 		tier: "UU",
 		doublesTier: "(DUU)",
@@ -5291,6 +5292,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
+	/*
 	nihilego: {
 		randomBattleMoves: ["stealthrock", "toxicspikes", "sludgewave", "powergem", "thunderbolt", "grassknot"],
 		randomDoubleBattleMoves: ["powergem", "sludgebomb", "grassknot", "protect", "thunderbolt", "hiddenpowerice"],
@@ -5333,6 +5335,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PUBL",
 		doublesTier: "(DUU)",
 	},
+	*/
 	necrozma: {
 		randomBattleMoves: ["calmmind", "photongeyser", "heatwave", "moonlight", "stealthrock"],
 		randomDoubleBattleMoves: ["calmmind", "heatwave", "photongeyser", "moonlight", "earthpower"],
