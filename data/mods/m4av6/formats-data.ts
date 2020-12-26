@@ -3602,6 +3602,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RUBL",
 		doublesTier: "(DUU)",
 	},
+	darmanitanzen: {
+		randomBattleMoves: ["bellydrum", "rest", "earthquake", "flareblitz"],
+		randomDoubleBattleMoves: ["uturn", "flareblitz", "rockslide", "earthquake", "superpower", "protect"],
+		tier: "RUBL",
+		doublesTier: "(DUU)",
+	},
 	/*
 	darmanitanmega: {
 		
