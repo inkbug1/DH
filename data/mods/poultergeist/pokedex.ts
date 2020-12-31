@@ -22,7 +22,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: .7,
 		weightkg: 2.6,
 		color: "Red",
-		battleOnly: "Poultergeist",
 		eggGroups: ["Flying"],
 	},
 };
