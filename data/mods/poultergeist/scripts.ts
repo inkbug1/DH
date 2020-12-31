@@ -17,11 +17,11 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 				if (pokemon.ability === 'chickenout' && !pokemon.transformed && !pokemon.headless && this.canSwitch(pokemon.side)) {
 					pokemon.headless = true;
 					this.runEvent('Faint', pokemon, faintData.source, faintData.effect);
-					pokemon.clearVolatile(false);
+					pokemon.cureStatus('[silent]');
+					pokemon.volatiles = {};
 					pokemon.illusion = null;
 					pokemon.isActive = false;
 					pokemon.isStarted = false;
-					pokemon.status = '';
 					pokemon.switchFlag = true;
 					pokemon.side.faintedThisTurn = pokemon;
 					return;
