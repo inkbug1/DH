@@ -4,7 +4,7 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 		name: "Chicken Out",
 		onFaint(pokemon) {
 			if (pokemon.headless === true) {
-				if (pokemon.formeChange('Poultergeist-Headless', this.effect, true)) {
+				if (pokemon.formeChange('Poultergeist-Headless', this.effect)) {
 					this.add('-ability', pokemon, 'Chicken Out');
 					this.add('-message', `${pokemon.name} ran off somewhere...`);
 					pokemon.maxhp = 1;
