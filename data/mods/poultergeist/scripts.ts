@@ -22,6 +22,7 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 					pokemon.isActive = false;
 					pokemon.isStarted = false;
 					pokemon.hp = 1;
+					pokemon.status = '';
 					pokemon.switchFlag = true;
 					pokemon.side.faintedThisTurn = pokemon;
 					return;
