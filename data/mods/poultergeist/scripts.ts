@@ -11,8 +11,8 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 		while (this.faintQueue.length) {
 			faintData = this.faintQueue.shift()!;
 			const pokemon: Pokemon = faintData.target;
-			if (!pokemon.fainted &&
-					this.runEvent('BeforeFaint', pokemon, faintData.source, faintData.effect)) {
+			if ((!pokemon.fainted &&
+					this.runEvent('BeforeFaint', pokemon, faintData.source, faintData.effect)) || pokemon.species === 'Poultergeist-Headless') {
 				this.add('faint', pokemon);
 				if (pokemon.ability === 'chickenout' && !pokemon.transformed && !pokemon.headless && this.canSwitch(pokemon.side)) {
 					pokemon.headless = true;
