@@ -9,7 +9,6 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 					this.add('-message', `${pokemon.name} ran off somewhere...`);
 					pokemon.maxhp = 1;
 					pokemon.hp = 1;
-					delete pokemon.fainted;
 				}
 			}
 		},
