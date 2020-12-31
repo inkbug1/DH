@@ -6,7 +6,8 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 			if (pokemon.headless === true) {
 				if (pokemon.formeChange('Poultergeist-Headless', this.effect, true)) {
 					this.add('-message', `${pokemon.name} ran off somewhere...`);
-					pokemon.heal(pokemon.baseMaxhp);
+					pokemon.maxhp = 1;
+					let pokemon.faint;
 				}
 			}
 		},
