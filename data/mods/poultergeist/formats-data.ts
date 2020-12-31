@@ -3,7 +3,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "UU",
 	},
-	poultergeist-headless: {
+	poultergeistheadless: {
 		tier: "UU",
 		doublesTier: "UU",
 	},
