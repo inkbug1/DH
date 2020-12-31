@@ -4,7 +4,7 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 			for (const pokemon of side.active) {
 				if (pokemon.fainted) {
 					if (pokemon.ability === 'chickenout') {
-						if (pokemon.species !== 'Poultergeist' || pokemon.transformed) {
+						if (pokemon.transformed) {
 							pokemon.status = 'fnt' as ID;
 							pokemon.switchFlag = true;
 						}
