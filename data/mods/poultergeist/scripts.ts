@@ -10,8 +10,7 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 						}
 						pokemon.fainted = false;
 						pokemon.switchFlag = true;
-      		      pokemon.hp = 1;
-	   		   	pokemon.formeChange('Poultergeist-Headless');
+						pokemon.headless = true;
 					} else {
 						pokemon.status = 'fnt' as ID;
 						pokemon.switchFlag = true;
