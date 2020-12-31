@@ -14,19 +14,16 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 			if (!pokemon.fainted &&
 					this.runEvent('BeforeFaint', pokemon, faintData.source, faintData.effect)) {
 				this.add('faint', pokemon);
-				if (pokemon.ability === 'chickenout') {
-					if (!pokemon.transformed && this.canSwitch(pokemon.side)) {
-						this.runEvent('Faint', pokemon, faintData.source, faintData.effect);
-						pokemon.clearVolatile(false);
-						pokemon.fainted = false;
-						pokemon.illusion = null;
-						pokemon.isActive = false;
-						pokemon.isStarted = false;
-						pokemon.hp = 1;
-						pokemon.switchFlag = true;
-						pokemon.side.faintedThisTurn = pokemon;
-						return;
-					}
+				if (pokemon.ability === 'chickenout' && !pokemon.transformed && this.canSwitch(pokemon.side)) {
+					this.runEvent('Faint', pokemon, faintData.source, faintData.effect);
+					pokemon.clearVolatile(false);
+					pokemon.illusion = null;
+					pokemon.isActive = false;
+					pokemon.isStarted = false;
+					pokemon.hp = 1;
+					pokemon.switchFlag = true;
+					pokemon.side.faintedThisTurn = pokemon;
+					return;
 				}
 				pokemon.side.pokemonLeft--;
 				this.runEvent('Faint', pokemon, faintData.source, faintData.effect);
