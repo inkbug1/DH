@@ -17,6 +17,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		forme: "Headless",
 		types: ["Fire", "Ghost"],
 		baseStats: {hp: 1, atk: 65, def: 85, spa: 105, spd: 85, spe: 113},
+		maxHP: 1,
 		abilities: {0: "Wonder Guard"},
 		heightm: .7,
 		weightkg: 2.6,
