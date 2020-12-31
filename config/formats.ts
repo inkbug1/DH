@@ -398,6 +398,7 @@ export const Formats: FormatList = [
 			'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass',
 		],
 		onSwitchIn(pokemon) {
+			if (pokemon.species.baseSpecies !== 'Poultergeist') return;
 			this.add('-start', pokemon, 'typechange', pokemon.getTypes(true).join('/'), '[silent]');
 			const species = this.dex.getSpecies(pokemon.species.name);
 			const abilities = species.abilities;
