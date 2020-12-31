@@ -14,13 +14,18 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 				target.isStarted = false;
 				target.switchFlag = true;
 				target.side.faintedThisTurn = target;
-				if (target.formeChange('Poultergeist-Headless', this.effect, true)) {
-					this.add('-ability', target, 'Chicken Out');
-					this.add('-message', `${target.name} ran off somewhere...`);
-					target.maxhp = 1;
-					target.hp = 1;
+				return target.hp - 1;
+			}
+		},
+		onSwitchOut(pokemon) {
+			if (pokemon.headless) {
+				if (pokemon.formeChange('Poultergeist-Headless', this.effect, true)) {
+					this.add('-ability', pokemon, 'Chicken Out');
+					this.add('-message', `${pokemon.name} ran off somewhere...`);
+					pokemon.maxhp = 1;
+					pokemon.hp = 1;
+					delete pokemon.headless;
 				}
-				return;
 			}
 		},
 		rating: 5,
