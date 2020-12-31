@@ -4,10 +4,9 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 		name: "Chicken Out",
 		onFaint(pokemon) {
 			if (this.canSwitch(pokemon.side)) {
-				this.add('-ability', pokemon, 'Chicken Out');
-				this.add('-message', `${pokemon.name} ran off... What will happen now?`);
 				pokemon.hp = 1;
 				pokemon.formeChange('Poultergeist-Headless');
+				this.add('-message', `${pokemon.name} ran off somewhere...`);
 			}
 		},
 		rating: 5,
