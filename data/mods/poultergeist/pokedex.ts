@@ -1,0 +1,26 @@
+export const Pokedex: {[speciesid: string]: SpeciesData} = {
+	poultergeist: {
+		num: -1001,
+		name: "Poultergeist",
+		types: ["Fire", "Flying"],
+		baseStats: {hp: 105, atk: 65, def: 85, spa: 105, spd: 85, spe: 73},
+		abilities: {0: "Chicken Out"},
+		heightm: .7,
+		weightkg: 2.6,
+		color: "Red",
+		eggGroups: ["Flying"],
+	},
+	poultergeistheadless: {
+		num: -1001,
+		name: "Poultergeist-Headless",
+		baseSpecies: "Poultergeist",
+		forme: "Headless",
+		types: ["Fire", "Ghost"],
+		baseStats: {hp: 1, atk: 65, def: 85, spa: 105, spd: 85, spe: 113},
+		abilities: {0: "Wonder Guard"},
+		heightm: .7,
+		weightkg: 2.6,
+		color: "Red",
+		eggGroups: ["Flying"],
+	},
+};
