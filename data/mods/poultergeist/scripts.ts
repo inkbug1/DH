@@ -1,5 +1,4 @@
 export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
-/*
 	faintMessages(lastFirst = false) {
 		if (this.ended) return;
 		const length = this.faintQueue.length;
@@ -90,5 +89,4 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 		}
 		return false;
 	}
-*/
 };
