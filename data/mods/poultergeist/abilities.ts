@@ -3,7 +3,7 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 		shortDesc: "When its HP reaches 0, this Pokémon retreats to the party, and then...",
 		name: "Chicken Out",
 		onFaint(pokemon) {
-			if (this.canSwitch(pokemon.side)) {
+			if (pokemon.headless === true) {
 				pokemon.hp = 1;
 				pokemon.formeChange('Poultergeist-Headless');
 				this.add('-message', `${pokemon.name} ran off somewhere...`);
