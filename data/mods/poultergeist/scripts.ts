@@ -15,6 +15,7 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 					this.runEvent('BeforeFaint', pokemon, faintData.source, faintData.effect)) {
 				this.add('faint', pokemon);
 				if (pokemon.ability === 'chickenout' && !pokemon.transformed && this.canSwitch(pokemon.side)) {
+					pokemon.headless = true;
 					this.runEvent('Faint', pokemon, faintData.source, faintData.effect);
 					pokemon.clearVolatile(false);
 					pokemon.illusion = null;
