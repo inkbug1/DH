@@ -7,6 +7,7 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 				pokemon.setAbility('wonderguard');
 				pokemon.baseAbility = 'wonderguard';
 				pokemon.ability = 'wonderguard';
+				delete pokemon.headless;
 			}
 		},
 		onFaint(pokemon) {
