@@ -14,11 +14,11 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 			if (!pokemon.fainted &&
 					this.runEvent('BeforeFaint', pokemon, faintData.source, faintData.effect)) {
 				this.add('faint', pokemon);
-				if (pokemon.ability === 'chickenout' && !pokemon.transformed && !pokemon.headless && this.canSwitch(pokemon.side)) {
+				if (pokemon.species === 'Poultergeist' && !pokemon.transformed && !pokemon.headless && this.canSwitch(pokemon.side)) {
 					pokemon.headless = true;
 					this.runEvent('Faint', pokemon, faintData.source, faintData.effect);
-					pokemon.cureStatus('[silent]');
-					pokemon.volatiles = {};
+					pokemon.status = '';
+					pokemon.clearVolatile(false);
 					pokemon.illusion = null;
 					pokemon.isActive = false;
 					pokemon.isStarted = false;
@@ -89,14 +89,4 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 		}
 		return false;
 	},
-
-	faint(pokemon: Pokemon, source?: Pokemon, effect?: Effect) {
-		if (pokemon.species === 'Poultergeist' && !pokemon.transformed && pokemon.headless) {
-			this.add('-message', `${pokemon.name} is a headless Poultergeist that shouldn't really faint.`);
-		} else {
-			this.add('-message', `About to faint.`);
-			pokemon.faint(source, effect);
-			this.add('-message', `Just fainted. (What happened between these, if anything?)`);
-		}
-	}
 };
