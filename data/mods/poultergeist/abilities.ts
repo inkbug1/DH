@@ -26,6 +26,11 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 	wonderguard: {
 		onTryHit(target, source, move) {
 			if (target === source || move.category === 'Status' || move.type === '???' || move.id === 'struggle' || move.ignoreAbility) return;
+			for (const target of this.getAllActive()) {
+				if (target.hasAbility('neutralizinggas')) {
+					return;
+				}
+			}
 			if (move.id === 'skydrop' && !source.volatiles['skydrop']) return;
 			this.debug('Wonder Guard immunity: ' + move.id);
 			if (target.runEffectiveness(move) <= 0) {
