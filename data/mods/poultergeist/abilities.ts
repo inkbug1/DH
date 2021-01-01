@@ -3,12 +3,14 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 		shortDesc: "When its HP reaches 0, this Pokémon retreats to the party, and then...",
 		name: "Chicken Out",
 		onFaint(pokemon) {
-			if (pokemon.headless === true) {
+			if (pokemon.headless === true && pokemon.species === 'Poultergeist') {
 				if (pokemon.formeChange('Poultergeist-Headless', this.effect, true)) {
 					this.add('-ability', pokemon, 'Chicken Out');
 					this.add('-message', `${pokemon.name} ran off somewhere...`);
 					pokemon.maxhp = 1;
 					this.heal(pokemon.maxhp);
+					pokemon.baseAbility = 'wonderguard';
+					pokemon.ability = 'wonderguard';
 				}
 			}
 		},
