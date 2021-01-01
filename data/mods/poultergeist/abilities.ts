@@ -2,7 +2,7 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 	chickenout: {
 		shortDesc: "When its HP reaches 0, this Pokémon retreats to the party, and then...",
 		name: "Chicken Out",
-		onSwitchIn(pokemon) {
+		onBeforeSwitchIn(pokemon) {
 			if (pokemon.headless) {
 				pokemon.setAbility('wonderguard');
 				pokemon.baseAbility = 'wonderguard';
