@@ -5,8 +5,10 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 		onFaint(pokemon) {
 			if (pokemon.headless === true && pokemon.species === 'Poultergeist') {
 				if (pokemon.formeChange('Poultergeist-Headless', this.effect, true)) {
+					this.add('-ability', pokemon, 'Chicken Out');
+					this.add('-message', `${pokemon.name} ran off somewhere...`);
 					pokemon.maxhp = 1;
-					this.heal(pokemon.maxhp);
+					pokemon.hp = 1;
 					pokemon.setAbility('wonderguard');
 					pokemon.baseAbility = 'wonderguard';
 					pokemon.ability = 'wonderguard';
