@@ -90,8 +90,14 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 		return false;
 	},
 
-	faint(pokemon: Pokemon, source?: Pokemon, effect?: Effect) {
-		if (pokemon.headless === true) return;
-		pokemon.faint(source, effect);
-	},
+	checkFainted() {
+		for (const side of this.sides) {
+			for (const pokemon of side.active) {
+				if (pokemon.fainted || (pokemon.species.name === 'Poultergeist-Headless' && pokemon.hp < 1)) {
+					pokemon.status = 'fnt' as ID;
+					pokemon.switchFlag = true;
+				}
+			}
+		}
+	}
 };
