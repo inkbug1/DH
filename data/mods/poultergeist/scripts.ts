@@ -88,7 +88,7 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 			this.runEvent('AfterFaint', faintData.target, faintData.source, faintData.effect, length);
 		}
 		return false;
-	}
+	},
 
 	faint(pokemon: Pokemon, source?: Pokemon, effect?: Effect) {
 		if (pokemon.ability === 'chickenout' && !pokemon.transformed && pokemon.headless) return;
