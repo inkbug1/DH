@@ -76,6 +76,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			defog: ["7T"],
 			snatch: ["7T"],
 			spite: ["7T"],
+			magiccoat: ["7T"],
 			painsplit: ["7T"],
 			tailwind: ["7T"],
 		},
