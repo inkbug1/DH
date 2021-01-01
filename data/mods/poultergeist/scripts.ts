@@ -91,8 +91,7 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 	},
 
 	faint(pokemon: Pokemon, source?: Pokemon, effect?: Effect) {
-		this.add('-message', `This is a test to see when this happens.`);
+		if (pokemon.headless) return;
 		pokemon.faint(source, effect);
-		this.add('-message', `Pinpointing?`);
 	},
 };
