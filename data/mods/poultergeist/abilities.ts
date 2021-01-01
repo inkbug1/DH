@@ -9,6 +9,7 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 					this.add('-message', `${pokemon.name} ran off somewhere...`);
 					pokemon.maxhp = 1;
 					this.heal(pokemon.maxhp);
+					pokemon.setAbility('wonderguard');
 					pokemon.baseAbility = 'wonderguard';
 					pokemon.ability = 'wonderguard';
 				}
