@@ -37,18 +37,25 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 				return null;
 			}
 		},
+		onDamagePriority: -100,
 		onDamage(damage, target, source, effect) {
-			this.add('faint', target);
-			target.side.pokemonLeft--;
-			this.runEvent('Faint', target, source, effect);
-			this.singleEvent('End', target.getAbility(), target.abilityData, target);
-			target.clearVolatile(false);
-			target.fainted = true;
-			target.illusion = null;
-			target.isActive = false;
-			target.isStarted = false;
-			target.side.faintedThisTurn = true;
-			return 1;
+			if (damage > target.hp) {
+				return target.hp;
+			}
+		},
+		onUpdate(pokemon) {
+			if (pokemon.hp < 1) {
+				this.add('faint', pokemon);
+				pokemon.side.pokemonLeft--;
+				this.runEvent('Faint', pokemon);
+				this.singleEvent('End', pokemon.getAbility(), pokemon.abilityData, pokemon);
+				pokemon.clearVolatile(false);
+				pokemon.fainted = true;
+				pokemon.illusion = null;
+				pokemon.isActive = false;
+				pokemon.isStarted = false;
+				pokemon.side.faintedThisTurn = true;
+			}
 		},
 		name: "Wonder Guard",
 		rating: 5,
