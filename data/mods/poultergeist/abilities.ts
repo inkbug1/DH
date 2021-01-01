@@ -49,8 +49,6 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 			target.isActive = false;
 			target.isStarted = false;
 			target.side.faintedThisTurn = true;
-			target.status = 'fnt' as ID;
-			target.switchFlag = true;
 		},
 		name: "Wonder Guard",
 		rating: 5,
