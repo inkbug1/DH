@@ -15,33 +15,12 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 				if (pokemon.formeChange('Poultergeist-Headless', this.effect, true)) {
 					this.add('-ability', pokemon, 'Chicken Out');
 					this.add('-message', `${pokemon.name} ran off somewhere...`);
+					pokemon.maxhp = 1;
 					pokemon.hp = 1;
-					this.heal(pokemon.maxhp);
 				}
 			}
 		},
 		rating: 5,
 		num: -1001,
-	},
-	wonderguard: {
-		onStart(pokemon) {
-			this.add('-ability', pokemon, 'Wonder Guard');
-		},
-		onTryHit(target, source, move) {
-			if (target === source || move.category === 'Status' || move.type === '???' || move.id === 'struggle') return;
-			if (move.id === 'skydrop' && !source.volatiles['skydrop']) return;
-			this.debug('Wonder Guard immunity: ' + move.id);
-			if (target.runEffectiveness(move) <= 0) {
-				if (move.smartTarget) {
-					move.smartTarget = false;
-				} else {
-					this.add('-immune', target, '[from] ability: Wonder Guard');
-				}
-				return null;
-			}
-		},
-		name: "Wonder Guard",
-		rating: 5,
-		num: 25,
 	},
 };
