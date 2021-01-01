@@ -89,4 +89,10 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 		}
 		return false;
 	},
+
+	faint(pokemon: Pokemon, source?: Pokemon, effect?: Effect) {
+		this.add('-message', `This is a test to see when this happens.`);
+		pokemon.faint(source, effect);
+		this.add('-message', `Pinpointing?`);
+	},
 };
