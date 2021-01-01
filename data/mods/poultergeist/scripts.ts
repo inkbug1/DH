@@ -91,7 +91,7 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 	},
 
 	faint(pokemon: Pokemon, source?: Pokemon, effect?: Effect) {
-		if (pokemon.headless) return;
+		if (pokemon.headless === true) return;
 		pokemon.faint(source, effect);
 	},
 };
