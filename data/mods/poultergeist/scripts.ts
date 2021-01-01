@@ -91,7 +91,7 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 	},
 
 	faint(pokemon: Pokemon, source?: Pokemon, effect?: Effect) {
-		if (pokemon.ability === 'chickenout' && pokemon.species === 'Poultergeist' && !pokemon.transformed && pokemon.headless) return;
+		if (pokemon.species === 'Poultergeist' && !pokemon.transformed && pokemon.headless) return;
 		pokemon.faint(source, effect);
 	}
 };
