@@ -38,7 +38,6 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 			}
 		},
 		onDamage(damage, target, source, effect) {
-			damage = 1;
 			this.add('faint', target);
 			target.side.pokemonLeft--;
 			this.runEvent('Faint', target, source, effect);
@@ -49,6 +48,7 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 			target.isActive = false;
 			target.isStarted = false;
 			target.side.faintedThisTurn = true;
+			return 1;
 		},
 		name: "Wonder Guard",
 		rating: 5,
