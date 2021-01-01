@@ -36,12 +36,12 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 				}
 				return null;
 			} else {
-				target.faint;
+				target.faint();
 			}
 		},
 		onDamage(damage, target, source, effect) {
 			if (effect.effectType !== 'Move') {
-				target.faint;
+				target.faint();
 			}
 		},
 		name: "Wonder Guard",
