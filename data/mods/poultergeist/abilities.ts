@@ -35,14 +35,22 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 					this.add('-immune', target, '[from] ability: Wonder Guard');
 				}
 				return null;
-			} else {
-				target.faint();
 			}
 		},
 		onDamage(damage, target, source, effect) {
-			if (effect.effectType !== 'Move') {
-				target.faint();
-			}
+			damage = 1;
+			this.add('faint', target);
+			target.side.pokemonLeft--;
+			this.runEvent('Faint', target, source, effect);
+			this.singleEvent('End', target.getAbility(), target.abilityData, target);
+			target.clearVolatile(false);
+			target.fainted = true;
+			target.illusion = null;
+			target.isActive = false;
+			target.isStarted = false;
+			target.side.faintedThisTurn = true;
+			target.status = 'fnt' as ID;
+			target.switchFlag = true;
 		},
 		name: "Wonder Guard",
 		rating: 5,
