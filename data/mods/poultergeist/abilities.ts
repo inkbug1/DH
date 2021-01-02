@@ -20,52 +20,9 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 				}
 			}
 		},
-		rating: 5,
-		num: -1001,
-	},
-	wonderguard: {
-		onTryHit(target, source, move) {
-			if (target === source || move.category === 'Status' || move.type === '???' || move.id === 'struggle' || move.ignoreAbility) return;
-			for (const target of this.getAllActive()) {
-				if (target.hasAbility('neutralizinggas')) {
-					return;
-				}
-			}
-			if (move.id === 'skydrop' && !source.volatiles['skydrop']) return;
-			this.debug('Wonder Guard immunity: ' + move.id);
-			if (target.runEffectiveness(move) <= 0) {
-				if (move.smartTarget) {
-					move.smartTarget = false;
-				} else {
-					this.add('-immune', target, '[from] ability: Wonder Guard');
-				}
-				return null;
-			}
-		},
-		onDamagePriority: -100,
-		onDamage(damage, target, source, effect) {
-			if (damage > target.hp) {
-				return target.hp;
-			}
-		},
-		onUpdate(pokemon) {
-			if (pokemon.hp < 1) {
-				this.add('faint', pokemon);
-				pokemon.side.pokemonLeft--;
-				this.runEvent('Faint', pokemon);
-				this.singleEvent('End', pokemon.getAbility(), pokemon.abilityData, pokemon);
-				pokemon.clearVolatile(false);
-				pokemon.fainted = true;
-				pokemon.illusion = null;
-				pokemon.isActive = false;
-				pokemon.isStarted = false;
-				pokemon.side.faintedThisTurn = true;
-			}
-		},
 		isUnbreakable: true,
 		isPermanent: true,
-		name: "Wonder Guard",
 		rating: 5,
-		num: 25,
+		num: -1001,
 	},
 };
