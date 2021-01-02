@@ -10,7 +10,7 @@ export const Formats: {[k: string]: FormatData} = {
 			}
 		},
 		onUpdate(pokemon) {
-			if (pokemon.hp < 1) {
+			if (pokemon.maxhp = 1 && pokemon.hp < 1) {
 				this.add('faint', pokemon);
 				pokemon.side.pokemonLeft--;
 				this.runEvent('Faint', pokemon);
