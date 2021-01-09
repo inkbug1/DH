@@ -22,7 +22,6 @@ export const Formats: {[k: string]: ModdedFormatData} = {
 				
 				if (ab.includes("-S") && tactics.S) {
 					activeTactics.push(tactics.S); 
-					return; 
 				}
 				else {
 					if (tactics.R) {
