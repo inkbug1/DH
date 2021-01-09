@@ -881,8 +881,9 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 	pocketwatch: { 
 		num: 1.3, 
 		name: "UB Pocketwatch", 
+		gender: "N",
 		types: ["Psychic", "Fighting"], 
-		baseStats: [hp: 71, atk: 127, def: 127, spa: 23, spd: 23, spe: 199], 
+		baseStats: {hp: 71, atk: 127, def: 127, spa: 23, spd: 23, spe: 199}, 
 		abilities: {0: "Beast Boost"}, 
 		heightm: 0.6,
 		weightkg: 81,
@@ -912,4 +913,11 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 	
 	//Bunslinger
 	//Hare Trigger
+	/*
+	bunslinger: {
+		num: 1.4, 
+		name: "Bunslinger", 
+		types: ["Normal", "Grass"], 
+	},
+	*/
 }
