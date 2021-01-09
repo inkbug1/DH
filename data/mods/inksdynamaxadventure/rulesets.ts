@@ -20,7 +20,7 @@ export const Formats: {[k: string]: ModdedFormatData} = {
 				const ab = pokemon.ability; 
 				const activeTactics = [];
 				
-				if (ab.includes('-S') && tactics.S) {
+				if (ab.includes("-S") && tactics.S) {
 					activeTactics.push(tactics.S); 
 					return; 
 				}
@@ -28,13 +28,13 @@ export const Formats: {[k: string]: ModdedFormatData} = {
 					if (tactics.R) {
 						activeTactics.push(tactics.R); 
 					}
-					if (ab.includes('-0') && tactics.0) {
+					if (ab.includes("-0") && tactics.0) {
 						activeTactics.push(tactics.0); 
 					}
-					if (ab.includes('-1') && tactics.1) {
+					if (ab.includes("-1") && tactics.1) {
 						activeTactics.push(tactics.1); 
 					}
-					if (ab.includes('-H') && tactics.H) {
+					if (ab.includes("-H") && tactics.H) {
 						activeTactics.push(tactics.H); 
 					}
 				}
