@@ -1429,6 +1429,28 @@ export const Formats: FormatList = [
 			}
 		},		
 	},
+	{
+		name: "[Gen 8] Ink Test (Restricted)", 
+		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
+		mod: "inksdynamaxadventure",
+		debug: true, 
+		onSwitchIn(pokemon) {
+			if (pokemon.species.tier === "NEW") {
+				this.add('-start', pokemon, 'typechange', pokemon.getTypes(true).join('/'), '[silent]');
+			}
+		},	
+	}
+	{
+		name: "[Gen 8] Ink Test (Unrestricted)", 
+		ruleset: ['HP Percentage Mod', 'Cancel Mod'],
+		mod: "inksdynamaxadventure",
+		debug: true, 
+		onSwitchIn(pokemon) {
+			if (pokemon.species.tier === "NEW") {
+				this.add('-start', pokemon, 'typechange', pokemon.getTypes(true).join('/'), '[silent]');
+			}
+		},	
+	}
 	// Old Pet Mods ///////////////////////////////////////////////////////////////////
 	{
 		section: "Old Pet Mods",

@@ -308,6 +308,51 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		contestType: "Cool",
 	},
 	
+	snowfill: {
+		num: 0.1,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Snowfill",
+		pp: 10,
+		priority: 0,
+		flags: {snatch: 1, heal: 1},
+		onHit(pokemon) {
+			let factor = 0.5;
+			if (this.field.isWeather('hail')) {
+				factor = 0.667;
+			}
+			return !!this.heal(this.modify(pokemon.maxhp, factor));
+		},
+		secondary: null,
+		target: "self",
+		type: "Ice",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Cute",
+		shortDesc: "User restores 1/2 its max HP; 2/3 in Hail.",
+	},
 	
+	spectralthief: {
+		inherit: true, 
+		basePower: 60, 
+	}, 
+	
+	spectraltrick: {
+		num: 712,
+		accuracy: 100,
+		basePower: 60,
+		category: "Physical",
+		name: "Spectral Trick",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, authentic: 1},
+		swapsBoosts: true,
+		// Boost swapping implemented in scripts.js
+		secondary: null,
+		target: "normal",
+		type: "Ghost",
+		contestType: "Cool",
+		shortDesc: "User trades stat changes with the target, then attacks.", 
+	},
 	
 }
