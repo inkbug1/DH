@@ -1,4 +1,5 @@
 export const Formats: {[k: string]: ModdedFormatData} = {
+	/*
 	tacticsvalidator: {
 		effectType: 'ValidatorRule', 
 		name: "Tactics Validator", 
@@ -42,4 +43,5 @@ export const Formats: {[k: string]: ModdedFormatData} = {
 			}
 		},
 	},
+	*/
 }; 
