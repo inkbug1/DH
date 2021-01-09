@@ -14,9 +14,6 @@ export const Formats: {[k: string]: ModdedFormatData} = {
 	tactics: {
 		effectType: 'Rule', 
 		name: "Tactics", 
-		onBegin() {
-			
-		},
 		onSwitchIn(pokemon) {
 			if (this.modData('Learnsets', species).tactics) {
 				const tactics = this.modData('Learnsets', species).tactics; 

@@ -152,7 +152,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 			source.heal(source.baseMaxhp / 3);
 			if (!source.status) return;
 			source.cureStatus();
-		}
+		},
 		name: "Dragon Overflow", 
 		rating: 2, 
 		num: 1004, 
