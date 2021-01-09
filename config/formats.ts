@@ -1439,7 +1439,7 @@ export const Formats: FormatList = [
 				this.add('-start', pokemon, 'typechange', pokemon.getTypes(true).join('/'), '[silent]');
 			}
 		},	
-	}
+	},
 	{
 		name: "[Gen 8] Ink Test (Unrestricted)", 
 		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Tactics'],
@@ -1450,7 +1450,7 @@ export const Formats: FormatList = [
 				this.add('-start', pokemon, 'typechange', pokemon.getTypes(true).join('/'), '[silent]');
 			}
 		},	
-	}
+	},
 	// Old Pet Mods ///////////////////////////////////////////////////////////////////
 	{
 		section: "Old Pet Mods",
