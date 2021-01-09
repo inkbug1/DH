@@ -1431,7 +1431,7 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 8] Ink Test (Restricted)", 
-		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
+		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Tactics'],
 		mod: "inksdynamaxadventure",
 		debug: true, 
 		onSwitchIn(pokemon) {
@@ -1442,7 +1442,7 @@ export const Formats: FormatList = [
 	}
 	{
 		name: "[Gen 8] Ink Test (Unrestricted)", 
-		ruleset: ['HP Percentage Mod', 'Cancel Mod'],
+		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Tactics'],
 		mod: "inksdynamaxadventure",
 		debug: true, 
 		onSwitchIn(pokemon) {
