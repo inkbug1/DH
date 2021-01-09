@@ -42,5 +42,5 @@ export const Formats: {[k: string]: ModdedFormatData} = {
 				console.log('Selected Tactics: ' + activeTactics); 
 			}
 		},
-	}
+	},
 }; 
