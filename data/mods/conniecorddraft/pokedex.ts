@@ -24,7 +24,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		otherFormes: ["Drampa-Mega"],
 		formeOrder: ["Drampa", "Drampa-Mega"],
 	},
-	drampa: {
+	drampamega: {
 		num: 780,
 		name: "Drampa-Mega",
 		baseSpecies: "Drampa",
