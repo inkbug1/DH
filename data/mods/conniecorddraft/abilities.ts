@@ -130,6 +130,8 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 				return secondaries.filter(effect => effect.volatileStatus === 'flinch');
 			}
 		},
+		desc: "This Pokemon's damaging moves become multi-hit moves that hit twice. The second hit has its damage quartered. Does not affect multi-hit moves or moves that have multiple targets.",
+		shortDesc: "This Pokemon's damaging moves hit twice. The second hit has its damage quartered.",
 	},
 	inversionwarp: {
 		name: "Inversion Warp",
