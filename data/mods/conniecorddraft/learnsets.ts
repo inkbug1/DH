@@ -181,7 +181,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			return: ["8L1"], 
 			frustration: ["8L1"], 
 			hiddenpower: ["8L1"], 
-			flipturn: ["8L1"], 
 			toxic: ["8L1"], 
 			venomdrench: ["8L1"], 
 			toxicspikes: ["8L1"], 
