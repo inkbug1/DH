@@ -185,14 +185,14 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 		num: -1014,
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
-			if (defender.hp <= defender.maxhp / 2) {
+			if ((defender.hp <= defender.maxhp / 2) && (move.type === 'Water')) {
 				this.debug('Mesopelagic Deity boost');
 				return this.chainModify(1.2);
 			}
 		},
 		onModifySpAPriority: 5,
 		onModifySpA(atk, attacker, defender, move) {
-			if (defender.hp <= defender.maxhp / 2) {
+			if ((defender.hp <= defender.maxhp / 2) && (move.type === 'Water')) {
 				this.debug('Mesopelagic Deity boost');
 				return this.chainModify(1.2);
 			}
