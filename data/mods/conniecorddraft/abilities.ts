@@ -29,11 +29,13 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 		name: "Dialogue",
 		num: -1002,
 		
+		shortDesc: "On entry, all other Pokemon's Abilities are changed to Contrary.",
 	},
 	frozenpower: {
 		name: "Frozen Power",
 		num: -1003,
 		
+		shortDesc: "In Hail, this Pokemon's stats cannot be lowered.",
 	},
 	permafrost: {
 		name: "Permafrost", 
@@ -53,11 +55,14 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 				}
 			}
 		},
+		shortDesc: "On switch-in, this Pokemon lowers the Speed of adjacent opponents by 1 stage.",
 	},
 	grampandemonium: {
 		name: "Grampandemonium", 
 		num: -1005,
 		
+		desc: "On switch-in, this Pokemon gets +1 SpA for every NFE ally that is KOed. Self-KOs eg Life Orb recoil or sacrificial moves such as Explosion or Memento do not trigger this.",
+		shortDesc: "+1 SpA on switch-in for every fained NFE in the party.",
 	},
 	stonilate: {
 		name: "Stonilate", 
@@ -108,6 +113,7 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 		name: "Vicious Jaw", 
 		num: -1008,
 		
+		shortDesc: "On landing a biting move, inflicts Bleed (1/16 max HP for 4 turns).",
 	},
 	playtime: {
 		name: "Playtime",
@@ -140,30 +146,69 @@ export const Abilities: {[abilityid: string]: ModdedAbilityData} = {
 		name: "Inversion Warp",
 		num: -1010,
 		
+		shortDesc: "5 turns: Type effectiveness is inverted.",
 	},
 	damagewarp: {
 		name: "Damage Warp",
 		num: -1011,
 		
+		shortDesc: "5 turns: Atk is swapped for Def, Sp.Atk for Sp. Def.",
 	},
 	epipelagicdeity: {
 		name: "Epipelagic Deity", 
 		num: -1012,
 		
+		shortDesc: "This Pokemon's Spe is 1.1x on a turn where it selects a Water-type move.",
 	},
 	bathypelagicdeity: {
 		name: "Bathypelagic Deity",
 		num: -1013,
-		
+		onBasePowerPriority: 21,
+		onBasePower(basePower, pokemon) {
+			let boosted = true;
+			for (const target of this.getAllActive()) {
+				if (target === pokemon) continue;
+				if (this.queue.willMove(target)) {
+					boosted = false;
+					break;
+				}
+			}
+			if (boosted) {
+				this.debug('Bathypelagic Deity boost');
+				return this.chainModify([0x14CD, 0x1000]);
+			}
+		},
+		shortDesc: "This Pokemon's attacks have 1.3x power if it is the last to move in a turn.",
 	},
 	mesopelagicdeity: {
 		name: "Mesopelagic Deity",
 		num: -1014,
-		
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (defender.hp <= defender.maxhp / 2) {
+				this.debug('Mesopelagic Deity boost');
+				return this.chainModify(1.2);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (defender.hp <= defender.maxhp / 2) {
+				this.debug('Mesopelagic Deity boost');
+				return this.chainModify(1.2);
+			}
+		},
+		shortDesc: "This Pokemon's attacks have 1.2x power against foes under 1/2 health.",
 	},
 	venomdrain: {
 		name: "Venom Drain",
 		num: -1015,
-		
+		onAnyDamage(damage, target, source, effect) {
+			if (effect && (effect.id === 'toxic' || effect.id === 'poison')) {
+				if (damage > 0) {
+					this.heal(damage / 2); 
+				}
+			}
+		},
+		desc: "If another Pokemon is poisoned, heals 1/2 the damage taken from that poison.",
 	},
 };
