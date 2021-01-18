@@ -1,4 +1,11 @@
 export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
+	init(){
+		this.modData('Learnsets', 'vaporeon').learnset.dragonpulse = ['8M'];
+		this.modData('Learnsets', 'vaporeon').learnset.dragontail = ['8M'];
+		this.modData('Learnsets', 'vaporeon').learnset.outrage = ['8M'];
+		this.modData('Learnsets', 'vaporeon').learnset.twister = ['8M'];
+	},
+	
 	faintMessages(lastFirst = false) {
 		if (this.ended) return;
 		const length = this.faintQueue.length;
